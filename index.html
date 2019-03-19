@@ -44,11 +44,20 @@
         top: -2px;
       }
 
-	  .vape-machines{
-		  position: relative;
-		  top: 100px;
-		  transform: rotate(0deg) !important;
-	  }
+      .whatsapp-button{
+        position: relative;
+        top: -2px;
+      }
+      
+      @media (min-width: 641px){
+        .vape-machines {
+          margin-top: 100px          
+        }
+      }
+
+      .white-inline{
+        color:lightgray
+      }
     </style>
   </head>
   <body class="is-boxed has-animations">
@@ -58,20 +67,26 @@
           <div class="container">
             <div class="hero-inner">
               <div class="hero-copy">
-                <h1 class="hero-title mt-0">Welcome to Happy Lungs Lounge!!</h1>
+                <h1 class="hero-title mt-0">Happy Lungs Lounge</h1>
                 <p class="hero-paragraph">
-                  Please come take a look at our products on
+                  Welcome to <span class="white-inline">Happy Lungs Lounge</span>, we are a <span class="white-inline">Lebanese</span> vape shop<br />
+                  Come take a look at our products on
                   <a
-                    class="no-underline"
-                    style="color:lightgray"
+                    class="no-underline white-inline"
                     href="https://www.instagram.com/happylungslounge"
                     target="_blank"
                     >Instagram
                     <img style="width: 16px;display: inline;" src="dist/images/instagram.svg"
                   /></a>
                   <br />
-                  If you have any questions be sure to <span style="color:lightgray">DM</span> us
-                  there <br />
+                  If you have any questions be sure to contact us on
+                  <a
+                    class="no-underline white-inline"
+                    href="https://wa.me/96171521366"
+                    target="_blank"
+                    >WhatsApp
+                    <img style="width: 16px;display: inline;" src="dist/images/whatsapp.svg"/></a
+                  ><br />
                   Or you can use the chat button to the bottom right!
                 </p>
                 <div class="hero-cta">
@@ -81,6 +96,13 @@
                     target="_blank"
                     >INSTAGRAM<img class="instagram-button" src="dist/images/instagram.svg"
                   /></a>
+                  <a
+                  class="button button-shadow"
+                  href="https://wa.me/96171521366"
+                  target="_blank"
+                  style="background-color: #08c65b"
+                  >WHATSAPP<img class="whatsapp-button" src="dist/images/whatsapp.svg"
+                /></a>
                 </div>
               </div>
               <div class="hero-app">
@@ -178,7 +200,11 @@
                     </g>
                   </svg>
                 </div>
-                <img class="device-mockup vape-machines" src="mikha651.github.io/dist/images/Vape-devices.png" alt="Vape Machines" />
+                <img
+                  class="device-mockup vape-machines"
+                  src="dist/images/new-vapes.png"
+                  alt="Vape Machines"
+                />
                 <div class="hero-app-dots hero-app-dots-1">
                   <svg width="124" height="75" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fill-rule="evenodd">
