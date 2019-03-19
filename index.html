@@ -51,12 +51,18 @@
       
       @media (min-width: 641px){
         .vape-machines {
-          margin-top: 100px          
+          margin-top: 100px;
+          transform: scale(1.5) !important;
+          z-index: 1;   
         }
       }
 
       .white-inline{
         color:lightgray
+      }
+
+      .overlay-text{
+        z-index: 999999;
       }
     </style>
   </head>
@@ -66,7 +72,7 @@
         <section class="hero">
           <div class="container">
             <div class="hero-inner">
-              <div class="hero-copy">
+              <div class="hero-copy overlay-text" >
                 <h1 class="hero-title mt-0">Happy Lungs Lounge</h1>
                 <p class="hero-paragraph">
                   Welcome to <span class="white-inline">Happy Lungs Lounge</span>, we are a <span class="white-inline">Lebanese</span> vape shop<br />
